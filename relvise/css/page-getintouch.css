@@ -1,0 +1,98 @@
+.getintouch {
+  padding: 80px 0px 135px 0px;
+}
+.getintouch__header {
+  margin: 0px 0px 80px 0px;
+}
+
+.getintouch__item {
+  flex: 0 1 33.333%;
+}
+
+.item-getintouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px -2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 5px -2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 5px -2px rgba(34, 60, 80, 0.2);
+  padding: 50px 15px;
+}
+
+.item-getintouch--active {
+  background: #252b42;
+  color: white;
+  padding: 80px 15px;
+}
+
+.item-getintouch--active .item-getintouch__email {
+  color: white;
+}
+
+.item-getintouch--active .item-getintouch__button {
+  color: white;
+  border: 1px solid white;
+}
+
+.item-getintouch--active .item-getintouch__button:hover {
+  color: #252b42;
+  background: white;
+}
+
+.item-getintouch > *:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.item-getintouch__emails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-getintouch__email {
+  color: #252b42;
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.item-getintouch__button {
+  text-align: center;
+  border: 1px solid #ff7b47;
+  min-height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ff7b47;
+  line-height: 142%;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+
+.item-getintouch__button:hover {
+  background-color: #ff7b47;
+  color: white;
+}
+
+.item-getintouch__label {
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  .getintouch__items {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .getintouch {
+    padding: 80px 0px 50px 0px;
+  }
+}
