@@ -1,0 +1,62 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./page-main.css");
+@import url("./page-services.css");
+@import url("./page-advantages.css");
+@import url("./page-practice.css");
+@import url("./page-whoweare.css");
+@import url("./page-clients.css");
+@import url("./page-subscribe.css");
+@import url("./page-getintouch.css");
+@import url("./page-contact.css");
+@import url("./footer.css");
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #252b42;
+  font-family: Montserrat;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1046px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.header-block {
+  text-align: center;
+
+  letter-spacing: 0.2px;
+}
+
+.header-block__title {
+  font-size: 40px;
+  line-height: 142%;
+  font-weight: 700;
+}
+
+.header-block__title:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.header-block__sub-title {
+  line-height: 142%;
+  color: #737373;
+}
