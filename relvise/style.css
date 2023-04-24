@@ -1,15 +1,15 @@
-@import url("./");
-@import url("./header.css");
-@import url("./page-main.css");
-@import url("./page-services.css");
-@import url("./page-advantages.css");
-@import url("./page-practice.css");
-@import url("./page-whoweare.css");
-@import url("./page-clients.css");
-@import url("./page-subscribe.css");
-@import url("./page-getintouch.css");
-@import url("./page-contact.css");
-@import url("./footer.css");
+@import url("./css/reset.css");
+@import url("./css/header.css");
+@import url("./css/page-main.css");
+@import url("./css/page-services.css");
+@import url("./css/page-advantages.css");
+@import url("./css/page-practice.css");
+@import url("./css/page-whoweare.css");
+@import url("./css/page-clients.css");
+@import url("./css/page-subscribe.css");
+@import url("./css/page-getintouch.css");
+@import url("./css/page-contact.css");
+@import url("./css/footer.css");
 
 html,
 body {
